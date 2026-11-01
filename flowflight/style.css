@@ -13,7 +13,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 17px/1.65 "Iowan Old Style", "Palatino Linotype", Palatino, "Songti SC", "Hiragino Mincho ProN", serif;
+  font: 17px/1.65 "Iowan Old Style", "Palatino Linotype", Palatino, "Songti SC", "PingFang TC", "Hiragino Mincho ProN", "Apple SD Gothic Neo", serif;
 }
 
 main {
@@ -26,8 +26,9 @@ main {
 
 nav {
   display: flex;
-  gap: 1rem;
-  font-family: "Avenir Next", "PingFang SC", "Hiragino Sans", sans-serif;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  font-family: "Avenir Next", "PingFang SC", "PingFang TC", "Apple SD Gothic Neo", "Hiragino Sans", sans-serif;
   font-size: 0.85rem;
   letter-spacing: 0.02em;
 }
